@@ -165,6 +165,8 @@ GameObject:
   - 92: {fileID: 1243733163}
   - 124: {fileID: 1243733162}
   - 81: {fileID: 1243733161}
+  - 45: {fileID: 1243733166}
+  - 114: {fileID: 1243733167}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -240,3 +242,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!45 &1243733166
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1243733160}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: f85e80e4bc2f51f4dae9574ea7e6a584, type: 2}
+--- !u!114 &1243733167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1243733160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78052c89b502efd4e8c3e1b1f03bfaa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deviceNameKeyword: THETA
